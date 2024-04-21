@@ -1,0 +1,57 @@
+POST http://localhost:5274/api/v1/todo-lists
+Content-Type: application/json
+
+{
+  "title":  "Test list",
+  "description": "List for demo"
+}
+
+###
+
+POST http://localhost:5274/api/v1/todo-lists/1/todos
+Content-Type: application/json
+
+{
+  "title": "Test todo #1",
+  "description": "Todo for demo"
+}
+
+###
+
+GET http://localhost:5274/api/v1/todo-lists
+
+###
+
+GET http://localhost:5274/api/v1/todo-lists/1/todos
+
+### 
+
+PUT http://localhost:5274/api/v1/todo-lists/1
+Content-Type: application/json
+
+{
+  "title": "Test list",
+  "description": "List for demo - updated"
+}
+
+### 
+
+PUT http://localhost:5274/api/v1/todo-lists/1/todos/1
+Content-Type: application/json
+
+{
+  "title": "Test todo #1",
+  "description": "Todo for demo - updated"
+}
+
+###
+
+PUT http://localhost:5274/api/v1/todo-lists/1/todos/1/state
+
+###
+
+DELETE http://localhost:5274/api/v1/todo-lists/1/todos/1
+
+###
+
+DELETE http://localhost:5274/api/v1/todo-lists/1
