@@ -4,7 +4,7 @@ This repository hosts an example project for Poznan University of Technology stu
 ### How to Use
 Clone the repository:
 ```bash
-git clone https://github.com/mateusz-bryll/Build-Kubernetes-cluster.git
+git clone https://github.com/mateusz-bryll/PUT.NET-Software-Engineering-Talks-2024.git
 ```
 Navigate to the directory of the cloned repository.
 
